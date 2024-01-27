@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM alpine:3.18.6
 
 RUN apk --no-cache add git jq curl grep coreutils
 
